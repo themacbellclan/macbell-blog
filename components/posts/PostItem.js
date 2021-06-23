@@ -26,20 +26,6 @@ function PostItem({ post }) {
             date={formattedDate}
             slug={slug}
           />
-          {/* <div>
-            <Image
-              src={imagePath}
-              alt={title}
-              width={300}
-              height={200}
-              layout="responsive"
-            />
-          </div>
-          <div>
-            <h3>{title}</h3>
-            <time>{formattedDate}</time>
-            <p>{excerpt}</p>
-          </div> */}
         </a>
       </Link>
     </li>

@@ -9,7 +9,7 @@ function BlogCard({ title, image, excerpt, date, slug }) {
           <Image
             src={image}
             alt={title}
-            height={200}
+            height={250}
             width={300}
             layout="responsive"
           />

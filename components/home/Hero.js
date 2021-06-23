@@ -1,29 +1,27 @@
 import React from "react";
 import Image from "next/image";
 
-function Hero() {
+function Hero({ image, paragraph1, paragraph2 }) {
   return (
     <>
-      <div>
+      <div className="mb-20 w-screen">
         <Image
-          src="/images/siteImages/beach-hero.jpg"
+          src={`/images/siteImages/${image}`}
           alt="Placeholder"
           height={1000}
-          width={1000}
+          width={2000}
+          layout="responsive"
         />
       </div>
-      <div>
-        <p>
-          Our little corner of the internet includes stories and adventures from
-          our little life. We thought it would be a fun way to write down our
-          thoughts, be a little more intentional with our actions, and look back
-          on our memories. We are a happy bunch and are happy you’re along for
-          the ride. We live in Seattle, WA with our furry black lab Harley who
-          says woof! We are both full time corporate American workers but when
-          we have time off we use that for travel, learning, and fun hobbies. As
-          you see the theme of our blog change over time, it reflects our
-          learning and interests as they shift.
-        </p>
+      <div className="container w-5/12 mx-auto">
+        <div>
+          <p className="text-gray-500 font-light tracking-wider mb-6">
+            {paragraph1}
+          </p>
+          <p className="text-gray-500 font-light tracking-wider mb-20">
+            {paragraph2}
+          </p>
+        </div>
       </div>
     </>
   );

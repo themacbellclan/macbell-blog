@@ -9,9 +9,8 @@ function PostDetails(props) {
 // get single post per given slug
 export function getStaticProps(context) {
   const { params } = context;
-  console.log(context);
+
   const { slug } = params;
-  console.log(params);
 
   // gives us the data for the slug file and reads it
   const postData = getPostData(slug);

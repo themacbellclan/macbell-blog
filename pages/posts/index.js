@@ -8,7 +8,7 @@ function AllPosts(props) {
 
 export function getStaticProps() {
   const allPosts = getAllPosts();
-  console.log(allPosts);
+
   return {
     props: {
       posts: allPosts,
