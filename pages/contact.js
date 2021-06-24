@@ -5,10 +5,12 @@ import ContactForm from "../components/contact/ContactForm";
 function contact() {
   return (
     <>
-      <div>
-        <h1>Contact</h1>
-        <hr className="w-5/12"></hr>
-        <h3>Always looking for ways to connect!</h3>
+      <div className="flex flex-col items-center">
+        <h1 className="text-4xl font-light mt-14 mb-10">Contact</h1>
+        <hr className="w-9/12 mb-10"></hr>
+        <h3 className="font-light text-md text-gray-600">
+          Always looking for ways to connect!
+        </h3>
       </div>
       <ContactForm />
     </>
