@@ -1,5 +1,6 @@
 import Hero from "../components/home/Hero";
 import Link from "next/link";
+import Socials from "../components/layout/Socials";
 
 const homePageContent = [
   {

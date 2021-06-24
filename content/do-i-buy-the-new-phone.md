@@ -1,9 +1,9 @@
 ---
 title: "Joe's Journal | Financial Independence | Do I buy the new phone?"
-date: "October 12, 2020"
+date: "10/12/2020"
 author: "KIMBERLEY CAMPBELL"
 image: "jiro.jpg"
-excerpt: "nextjs is a framework for react. Makes fullstack apps easy and has SSR"
+excerpt: "Discussing the total cost of using a cell phone, especially when upgrading my phone. There’s a struggle when it comes to spending money, and throughout our pursuit for financial independence the aversion to spending has become greater as time goes on. Read More →"
 ---
 
 Working from home over the past 7 months, I’ve realized I have quite the aversion to spending money. Sometimes I think I want to spend money on something - I recently dropped my phone so that means phone shopping is in the near future - but once I start the process of finding a new phone I very quickly question if this is really worth it!
