@@ -5,24 +5,14 @@ import ReactMarkdown from "react-markdown";
 
 function PostContent({ post }) {
   const imagePath = `/images/postImages/${post.slug}/${post.image}`;
-
   // renderers tells markdown how we want something rendered
   // now markdown no longer renders an image into an image tag but instead calls our image method,and takes in data about the image and returns our nextjs image component
   // in our markdown file, the alt text is the text between square brackets
-  // image.src is available between parantheses
+  // image.properties.src is available between parentheses
   const customRenderers = {
-    // image(image) {
-    //   return (
-    //     <Image
-    //       src={`/images/postImages/${post.slug}/${image.src}`}
-    //       alt={image.alt}
-    //       width={600}
-    //       height={300}
-    //     />
-    //   );
-    // },
     p(paragraph) {
       const { node } = paragraph;
+
       if (node.children[0].tagName === "img") {
         const image = node.children[0];
 

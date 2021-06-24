@@ -1,9 +1,9 @@
 ---
 title: "Setting boundaries for yourself"
-date: "DECEMBER 30, 2020"
+date: "12/20/2020"
 author: "KIMBERLEY CAMPBELL"
 image: "yaoyorozu.png"
-excerpt: "nextjs is a framework for react. Makes fullstack apps easy and has SSR"
+excerpt: "Setting boundaries for yourself and others Read More →"
 ---
 
 This wasn’t a post I thought I’d write until a few days ago, after having a hard conversation with a family member. After the conversation was done I thought to myself, what could I have done better? What can I do to make these conversations easier in the future? I also thought about what the term ‘hard conversation’ really means? I’ve concluded its a combination of vulnerability + emotion that can bring about a hard conversation and its in those conversations where things can de-rail easily. From my experience, here are the things I will remember for next time.
@@ -39,3 +39,5 @@ The best boundaries are those that are entirely clear. Whether that’s through 
 New standards means some people will not meet them and that is okay.
 
 &nbsp;
+
+![placeholder](https://source.unsplash.com/user/erondu/1600x900)

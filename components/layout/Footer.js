@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Socials from "./Socials";
 
 function Footer() {
   return (
@@ -11,6 +12,7 @@ function Footer() {
       <div className="text-center mb-14 font-light text-gray-500">
         <p>The Macbell Clan</p>
       </div>
+      <Socials />
     </>
   );
 }
