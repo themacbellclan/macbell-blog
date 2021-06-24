@@ -13,7 +13,7 @@ function Hero({ image, paragraph1, paragraph2 }) {
           layout="responsive"
         />
       </div>
-      <div className="container w-5/12 mx-auto">
+      <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12">
         <div>
           <p className="text-gray-500 font-light tracking-wider mb-6">
             {paragraph1}

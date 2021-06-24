@@ -36,13 +36,6 @@ export default function Home() {
           paragraph2={item.paragraph2}
         />
       ))}
-      <div className="text-center space-x-3 mb-6 text-xs tracking-widest">
-        <Link href="/contact">CONTACT</Link>
-        <Link href="/socialmedia">SOCIAL MEDIA</Link>
-      </div>
-      <div className="text-center mb-14 font-light text-gray-500">
-        <p>The Macbell Clan</p>
-      </div>
     </>
   );
 }
