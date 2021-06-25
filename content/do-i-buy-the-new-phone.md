@@ -71,3 +71,5 @@ The goal isn’t to live like the average American, saving only 6% of our income
 That’s been the cycle for the past 7 months.
 
 Whether or not I’ll actually buy the phone this month is still undecided. I like it, it looks cool. The photos from it seem great, the reviews seem to be solid, it’s just the act of buying it. **What do you think?** Do you have any bad feelings when it comes to actually paying for something?
+
+![placeholder](jiro.jpg)

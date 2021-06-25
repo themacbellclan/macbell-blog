@@ -1,5 +1,7 @@
 import React from "react";
+// nextjs components
 import Link from "next/link";
+// styles
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,

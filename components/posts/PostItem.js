@@ -1,6 +1,7 @@
 import React from "react";
+// nextjs components
 import Link from "next/link";
-import Image from "next/image";
+// components
 import BlogCard from "../layout/BlogCard";
 
 function PostItem({ post }) {
