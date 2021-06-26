@@ -1,6 +1,7 @@
+// nextjs components
+import Head from "next/head";
+// components
 import Hero from "../components/home/Hero";
-import Link from "next/link";
-import Socials from "../components/layout/Socials";
 
 const homePageContent = [
   {
@@ -29,6 +30,9 @@ const homePageContent = [
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>The Macbell Clan</title>
+      </Head>
       {homePageContent.map((item) => (
         <Hero
           key={item.image}

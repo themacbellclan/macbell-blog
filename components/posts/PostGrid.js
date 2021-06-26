@@ -5,11 +5,13 @@ function PostGrid(props) {
   const { posts } = props;
 
   return (
-    <ul className="grid md:grid-cols-3 gap-10 mx-14 mt-10">
-      {posts.map((post) => (
-        <PostItem key={post.slug} post={post} />
-      ))}
-    </ul>
+    <div className="flex justify-center mx-10 mt-10">
+      <ul className="grid gap-3 grid-cols-1 sm:grid-cols-2 sm:gap-4 md:gap-6 md:grid-cols-3 ">
+        {posts.map((post) => (
+          <PostItem key={post.slug} post={post} />
+        ))}
+      </ul>
+    </div>
   );
 }
 
