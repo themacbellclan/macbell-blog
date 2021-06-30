@@ -4,13 +4,12 @@ import Image from "next/image";
 function Hero({ image, paragraph1, paragraph2 }) {
   return (
     <>
-      <div className="mb-20 w-screen">
+      <div className="mb-20 w-screen bg-fixed">
         <Image
           src={`/images/siteImages/${image}`}
           alt="Placeholder"
-          height={1000}
-          width={2000}
-          layout="responsive"
+          objectFit="fill"
+          layout="fill"
         />
       </div>
       <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12">

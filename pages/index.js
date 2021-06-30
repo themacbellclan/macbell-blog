@@ -2,7 +2,8 @@
 import Head from "next/head";
 // components
 import Hero from "../components/home/Hero";
-
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 const homePageContent = [
   {
     image: "seattle-hero.jpg",
@@ -33,14 +34,39 @@ export default function Home() {
       <Head>
         <title>The Macbell Clan</title>
       </Head>
-      {homePageContent.map((item) => (
-        <Hero
-          key={item.image}
-          image={item.image}
-          paragraph1={item.paragraph1}
-          paragraph2={item.paragraph2}
-        />
-      ))}
+      <div className={`${styles.parallax} mt-1`}></div>
+      <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
+        <div>
+          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20">
+            {homePageContent[0].paragraph1}
+          </p>
+          <p className="text-gray-500 font-light tracking-wider mb-20">
+            {homePageContent[0].paragraph2}
+          </p>
+        </div>
+      </div>
+      <div className={`${styles.parallax2}`}></div>
+      <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
+        <div>
+          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20">
+            {homePageContent[1].paragraph1}
+          </p>
+          <p className="text-gray-500 font-light tracking-wider mb-20">
+            {homePageContent[1].paragraph2}
+          </p>
+        </div>
+      </div>
+      <div className={styles.parallax3}></div>
+      <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
+        <div>
+          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20">
+            {homePageContent[2].paragraph1}
+          </p>
+          <p className="text-gray-500 font-light tracking-wider mb-20">
+            {homePageContent[2].paragraph2}
+          </p>
+        </div>
+      </div>
     </>
   );
 }
