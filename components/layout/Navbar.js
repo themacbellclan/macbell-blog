@@ -24,7 +24,7 @@ function Navbar() {
       <ul
         className={`${
           open ? "block" : "hidden"
-        } absolute pt-0 top-24 left-0 flex-col w-full p-6 bg-white shadow-md rounded-lg z-20 md:relative md:top-0 md:z-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:p-6 md:justify-end text-xs tracking-wider md:mr-28 lg:mr-64 md:ml-1 lg:ml-1 xl:ml-0 xl:mr-72`}
+        } absolute pt-0 top-24 left-0 flex-col w-full p-6 bg-white shadow-md rounded-lg z-20 md:relative md:top-0 md:z-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:p-6 md:justify-end text-xs tracking-widest md:mr-28 lg:mr-64 md:ml-1 lg:ml-1 xl:ml-0 xl:mr-72`}
       >
         <li>
           <Link href="/">HOME</Link>
@@ -50,7 +50,7 @@ function Navbar() {
       <ul
         className={`${
           open ? "block" : "hidden"
-        } absolute top-32 left-0 z-20 flex-col w-full bg-white shadow-md rounded-lg p-6 md:relative md:top-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:ml-28 lg:ml-64 xl:ml-72 md:p-6 pt-0 text-xs tracking-wider md:justify-start`}
+        } absolute top-32 left-0 z-20 flex-col w-full bg-white shadow-md rounded-lg p-6 md:relative md:top-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:ml-28 lg:ml-56 xl:ml-72 md:p-6 pt-0 text-xs tracking-widest md:justify-start`}
       >
         <li>
           <Link href="/contact">CONTACT</Link>
