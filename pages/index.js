@@ -39,7 +39,7 @@ export default function Home() {
             {homePageContent[0].paragraph1}
           </p>
           <p className="text-gray-500 font-light tracking-wider mb-20 text-lg">
-            {homePageContent[0].paragraph2}
+            {homePageContent[0].paragraph1}
           </p>
         </div>
       </div>
