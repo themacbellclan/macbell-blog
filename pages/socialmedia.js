@@ -1,7 +1,15 @@
-import React from "react";
+import Head from "next/head";
 
 function socialmedia() {
-  return <div>hello</div>;
+  return (
+    <>
+      <Head>
+        <title>Social Media</title>
+        <meta name="description" content="Social Media" />
+      </Head>
+      <div>hello</div>
+    </>
+  );
 }
 
 export default socialmedia;

@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Notification from "./Notification";
 
+// const nodemailer = require("nodemailer");
+// const { google } = require("googleapis");
+
 function ContactForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -9,6 +12,48 @@ function ContactForm() {
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState();
   const [messageError, setMessageError] = useState();
+
+  ///////
+
+  // const oauth2Client = new google.auth.OAuth2(
+  //   process.env.CLIENT_ID,
+  //   process.env.CLIENT_SECRET,
+  //   process.env.REDIRECT_URI
+  // );
+  // oauth2Client.setCredentials({ refresh_token: process.env.REFRESH_TOKEN });
+
+  // async function sendMail() {
+  //   try {
+  //     // get access token from oauth2 client
+  //     const accessToken = await oauth2Client.getAccessToken();
+  //     const transporter = nodemailer.createTransport({
+  //       service: "Gmail",
+  //       auth: {
+  //         user: process.env.EMAIL,
+  //         pass: process.env.PASSWORD,
+  //         clientId: process.env.CLIENT_ID,
+  //         clientSecret: process.env.CLIENT_SECRET,
+  //         refreshToken: process.env.REFRESH_TOKEN,
+  //         accessToken: accessToken,
+  //       },
+  //     });
+
+  //     const mailData = {
+  //       from: email,
+  //       to: process.env.EMAIL,
+  //       subject: subject,
+  //       text: message,
+  //       html: <div>{message}</div>,
+  //     };
+
+  //     const result = await transporter.sendMail(mailData);
+  //     return result;
+  //   } catch (error) {
+  //     return error;
+  //   }
+  // }
+
+  // //////
 
   useEffect(() => {
     if (status === "success" || status === "error") {
@@ -19,7 +64,7 @@ function ContactForm() {
 
       return () => clearTimeout(timer);
     }
-  }, status);
+  }, [status]);
 
   async function sentMessageData(messageDetails) {
     const response = await fetch("/api/contact", {
