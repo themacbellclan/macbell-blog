@@ -35,7 +35,7 @@ export default function Home() {
       <div className={`${styles.parallax} mt-1`}></div>
       <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
         <div>
-          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20">
+          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20 text-lg">
             {homePageContent[0].paragraph1}
           </p>
           <p className="text-gray-500 font-light tracking-wider mb-20">
@@ -46,10 +46,10 @@ export default function Home() {
       <div className={`${styles.parallax2}`}></div>
       <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
         <div>
-          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20">
+          <p className="text-gray-500 font-light tracking-wider mb-6 mt-20 text-lg">
             {homePageContent[1].paragraph1}
           </p>
-          <p className="text-gray-500 font-light tracking-wider mb-20">
+          <p className="text-gray-500 font-light tracking-wider mb-20 text-lg">
             {homePageContent[1].paragraph2}
           </p>
         </div>

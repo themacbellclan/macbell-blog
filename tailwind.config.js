@@ -30,7 +30,7 @@ module.exports = {
         body: ["Rubik"],
       },
       fontSize: {
-        xs: ".65rem",
+        xs: ".75rem",
         sm: ".875rem",
         tiny: ".875rem",
         base: "1rem",
