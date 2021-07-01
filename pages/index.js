@@ -1,8 +1,6 @@
 // nextjs components
 import Head from "next/head";
-// components
-import Hero from "../components/home/Hero";
-import Image from "next/image";
+// styles
 import styles from "../styles/Home.module.css";
 const homePageContent = [
   {
