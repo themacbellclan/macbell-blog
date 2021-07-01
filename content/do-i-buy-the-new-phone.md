@@ -11,7 +11,7 @@ Working from home over the past 7 months, I’ve realized I have quite the avers
 
 ---
 
-#### TL;DR:
+### TL;DR:
 
 - Don’t drop your phone, ever!
 - Buying stuff has become difficult, and there are days I feel like it isn’t worth saving.

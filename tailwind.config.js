@@ -10,11 +10,32 @@ module.exports = {
               color: "#853737",
             },
             p: {
+              fontSize: "1.25rem",
               color: "rgba(29,29,29,.7)",
               lineHeight: "1.8rem",
               fontWeight: "300",
             },
+            h1: {
+              color: "#4b5563",
+              fontWeight: "600",
+            },
+            h2: {
+              color: "#4b5563",
+              fontWeight: "600",
+            },
+            h3: {
+              color: "#4b5563",
+              fontWeight: "600",
+            },
             h4: {
+              color: "#4b5563",
+              fontWeight: "600",
+            },
+            h5: {
+              color: "#4b5563",
+              fontWeight: "600",
+            },
+            h6: {
               color: "#4b5563",
               fontWeight: "600",
             },
